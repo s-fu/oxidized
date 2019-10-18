@@ -1,3 +1,4 @@
+# Please make sure the timeout of ssh/telnet is shorter than timeout of oxidized
 class Netgear < Oxidized::Model
   comment '!'
   prompt /^(\([\w\s\-.]+\)\s[#>])$/
